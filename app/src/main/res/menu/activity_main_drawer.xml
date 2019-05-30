@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_inbox"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_all_inbox" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_primary"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_primary" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_social" />
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_promotions" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_updates" />
+        <item
+            android:id="@+id/nav_forums"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_forums" />
+    </group>
+
+    <item android:title="@string/recent_labels">
+        <menu>
+            <item
+                android:id="@+id/nav_linked"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_linked_in" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/recent_labels">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_starred" />
+
+            <item
+                android:id="@+id/nav_snoozed"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_snoozed" />
+            <item
+                android:id="@+id/nav_important"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_important" />
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_sent" />
+            <item
+                android:id="@+id/nav_scheduled"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_scheduled" />
+            <item
+                android:id="@+id/nav_outbox"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_outbox" />
+            <item
+                android:id="@+id/nav_draft"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_draft" />
+        </menu>
+    </item>
+
+</menu>
