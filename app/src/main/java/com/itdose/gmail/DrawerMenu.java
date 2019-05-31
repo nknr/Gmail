@@ -1,6 +1,6 @@
 package com.itdose.gmail;
 
-public class DrawerItem {
+public class DrawerMenu {
     private int backGroundDrawable;
     private int icon;
     private String heading;
@@ -8,7 +8,7 @@ public class DrawerItem {
     private int count;
     private boolean isSelected;
 
-    public DrawerItem(int backGroundDrawable, int icon, String heading, String name, int count, boolean isSelected) {
+    public DrawerMenu(int backGroundDrawable, int icon, String heading, String name, int count, boolean isSelected) {
         this.backGroundDrawable = backGroundDrawable;
         this.icon = icon;
         this.heading = heading;
